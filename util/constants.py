@@ -1,3 +1,4 @@
+from math import pi, sin, cos
 COLOR = {
     "BLACK": (0,0,0),
     "WHITE": (255,255,255),
@@ -8,4 +9,10 @@ COLOR = {
     "BLUE": (0,0,255),
     "INDIGO": (75,0,130),
     "PURPLE": (255,0,255)
+}
+MATH_SIGN = {
+    "PI": pi,
+    "sin": sin,
+    "cos": cos,
+
 }
